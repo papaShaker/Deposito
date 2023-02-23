@@ -7,7 +7,7 @@ package cuentas;
 
 /**
  *
- * @author Dari
+ * @author Bozhidar Emilov Dimitrov Iliev
  */
 public class Deposito {
 
@@ -18,6 +18,11 @@ public class Deposito {
         operativa_cuenta(0);
     }
 
+    /**
+     * 
+     * @param cantidad para el método operativa_cuenta.
+     * declara una cuenta
+     */
     private static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
